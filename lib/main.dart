@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rekognisi_app/page/home/keranjang_page.dart';
 import 'package:rekognisi_app/page/home/main_page.dart';
 import 'package:rekognisi_app/page/splash_page.dart';
 
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => const SplashPage(),
-        '/home': (context) => const MainPage()
+        '/home': (context) => const MainPage(),
+        '/keranjang': (context) => const KeranjangPage(),
       },
     );
   }
